@@ -1,4 +1,4 @@
-FROM gradle:7.4.2-jdk17
+FROM gradle:7.5-jdk17
 
 RUN apt-get update && apt-get install -qq -y --no-install-recommends
 
